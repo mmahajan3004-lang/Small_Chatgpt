@@ -2,9 +2,9 @@ import streamlit as st
 from behind import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage
 import uuid
-
+from dotenv import load_dotenv
 # **************************************** utility functions *************************
-
+load_dotenv()
 def generate_thread_id():
     thread_id = uuid.uuid4()
     return thread_id
