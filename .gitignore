@@ -4,6 +4,5 @@
 /chatbot.db-shm
 /chatbot.db-wal
 /data
-/frontend.py
 /venv
 /__pycache__
